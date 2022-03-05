@@ -1,0 +1,8 @@
+.navbar-nav {
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 1.7rem;
+}
+.navbar-nav a {
+    margin: 0 40px;
+}
