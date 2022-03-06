@@ -1,12 +1,14 @@
 import React from 'react';
+import MainSection from './components/Main/MainSection';
 import NavigationBar from './components/Navbar/NavigationBar';
 import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
+    <main>
       <NavigationBar />
-    </div>
+      <MainSection />
+    </main>
   );
 }
 
