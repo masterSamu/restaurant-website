@@ -1,8 +1,31 @@
 .navbar-nav {
     justify-content: flex-end;
     width: 100%;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 .navbar-nav a {
-    margin: 0 40px;
+    margin: 0 30px;
+}
+
+nav .container {
+    padding: 5px 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav {
+        font-size: 1.3rem;
+    }
+
+    .navbar-nav a {
+        margin: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav a {
+        margin-top: 1rem;
+    }
 }
