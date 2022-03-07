@@ -6,3 +6,21 @@ main {
   margin: 0 auto;
   max-width: 1450px;
 }
+
+.link-anchor {
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+  .link-anchor {
+    top: -20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .link-anchor {
+    top: -180px;
+  }
+}

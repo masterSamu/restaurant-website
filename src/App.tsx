@@ -9,6 +9,7 @@ function App() {
     <main>
       <NavigationBar />
       <MainSection />
+      <span id="MENU" className="link-anchor"></span>
       <MenuSection />
     </main>
   );
