@@ -1,0 +1,39 @@
+
+.shop-status-container {
+    display: flex;
+    flex-direction: column;
+    background: #DCF2FF;
+    width: 300px !important;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.shop-container-headline {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.shop-status-opening, .shop-status-location {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.shop-status-opening span, .shop-status-location span {
+    margin-left: 20px;
+}
+
+.shop-status-icon {
+    border-radius: 15px;
+    height:fit-content;
+    width:fit-content;
+    padding: 0px 10px;
+}
+
+.shop-status-icon.open {
+    background-color: green;
+}
+.shop-status-icon.closed {
+    background-color: red;
+}
+
