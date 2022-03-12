@@ -7,22 +7,28 @@ import "./styles/App.css";
 
 import useFirestore from "./Hooks/useFirestore";
 import Schedule from "./components/Schedule/Schedule";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const currentShopStatus = useFirestore();
 
   return (
-    <main>
-      <NavigationBar />
-      {currentShopStatus !== undefined && (
-        <ShopStatus currentShopStatus={currentShopStatus} />
-      )}
-      <MainSection />
-      <span id="MENU" className="link-anchor"></span>
-      <MenuSection />
-      <span id="SCHEDULE" className="link-anchor"></span>
-      <Schedule />
-    </main>
+    <>
+      <main>
+        <NavigationBar />
+        {currentShopStatus !== undefined && (
+          <ShopStatus currentShopStatus={currentShopStatus} />
+        )}
+        <MainSection />
+        <span id="MENU" className="link-anchor"></span>
+        <MenuSection />
+        <span id="SCHEDULE" className="link-anchor"></span>
+        <Schedule />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
 
