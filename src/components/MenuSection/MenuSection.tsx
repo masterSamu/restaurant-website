@@ -7,7 +7,7 @@ export default function MenuSection() {
   return (
     <Container className="menu-container" id="MENU">
       <Row className="menu-headline-container" >
-        <h2 className="menu-main-headline" >MENU</h2>
+        <h2 className="menu-main-headline">MENU</h2>
       </Row>
       <Row className="menu-items">
           <Row>
