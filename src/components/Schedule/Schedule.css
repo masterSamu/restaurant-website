@@ -1,0 +1,68 @@
+.schedule-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(85, 85, 85)
+}
+.schedule-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.schedule-main-headline {
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.schedule-day-headline {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.schedule-day-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+.schedule-day-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.sdic-inner-container {
+    min-width: 350px;
+    display: flex;
+}
+
+.sdic-inner-container span:last-child {
+    width: 50% !important;
+}
+
+.sdic-text-title {
+    width: 50% !important;
+    display: inline-block;
+}
+
+.schedule-closed-text {
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+    .schedule-day-info {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    .sdic-inner-container {
+        min-width: 300px;
+        justify-content: center;
+    }
+}

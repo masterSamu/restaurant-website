@@ -6,6 +6,7 @@ import ShopStatus from "./components/ShopStatus/ShopStatus";
 import "./styles/App.css";
 
 import useFirestore from "./Hooks/useFirestore";
+import Schedule from "./components/Schedule/Schedule";
 
 function App() {
   const currentShopStatus = useFirestore();
@@ -19,6 +20,8 @@ function App() {
       <MainSection />
       <span id="MENU" className="link-anchor"></span>
       <MenuSection />
+      <span id="SCHEDULE" className="link-anchor"></span>
+      <Schedule />
     </main>
   );
 }

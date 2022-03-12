@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import MenuSection from "../MenuSection";
 import MenuItem from "../MenuItem";
 
