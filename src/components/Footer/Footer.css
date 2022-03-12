@@ -1,0 +1,31 @@
+
+.footer-row {
+    justify-content: center;
+    padding: 2rem;
+    border-top: 2px solid rgb(85, 85, 85);
+    margin-top: 2em;
+}
+
+.footer-l-col, .footer-r-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-l-col p {
+    font-size: 2rem;
+    padding: 0;
+}
+
+.footer-r-col span {
+    padding: 0 1em;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .footer-row {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
